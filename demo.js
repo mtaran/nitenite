@@ -54,7 +54,7 @@ function onStopButtonClick() {
 
 function handleNotifications(event) {
   let value = event.target.value;
-  console.log('> ' + parseHeartRate(value));
+  console.log('> ' + JSON.stringify(parseHeartRate(value)));
 }
 
 function isWebBluetoothEnabled() {
